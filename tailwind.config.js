@@ -1,13 +1,50 @@
 import { fontFamily } from "tailwindcss/defaultTheme";
 import plugin from "tailwindcss/plugin";
+import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
 
+const colors = require("tailwindcss/colors");
+
+/** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/@aceternity/ui/**/*.{js,jsx,ts,tsx}",
+  ],
+  darkMode: "class",
   theme: {
     extend: {
+      animation: {
+        ripple: "ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite",
+        blob: "blob 7s infinite",
+      },
+      keyframes: {
+        ripple: {
+          "0%, 100%": {
+            transform: "translate(-50%, -50%) scale(1)",
+          },
+          "50%": {
+            transform: "translate(-50%, -50%) scale(0.9)",
+          },
+        },
+
+        blob: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(30px, -50px) scale(1.1)",
+          },
+          "66%": {
+            transform: "translate(-20px, 20px) scale(0.9)",
+          },
+          "100%": {
+            transform: "tranlate(0px, 0px) scale(1)",
+          },
+        },
+      },
       colors: {
         color: {
-          1: "#AC6AFF",
+          1: "#5f3f95",
           2: "#FFC876",
           3: "#FF776F",
           4: "#7ADB78",
@@ -73,6 +110,7 @@ export default {
     },
   },
   plugins: [
+    addVariablesForColors,
     plugin(function ({ addBase, addComponents, addUtilities }) {
       addBase({});
       addComponents({
@@ -80,52 +118,21 @@ export default {
           "@apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem]":
             {},
         },
-        ".h1": {
-          "@apply font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
-            {},
-        },
-        ".h2": {
-          "@apply text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight":
-            {},
-        },
-        ".h3": {
-          "@apply text-[2rem] leading-normal md:text-[2.5rem]": {},
-        },
-        ".h4": {
-          "@apply text-[2rem] leading-normal": {},
-        },
-        ".h5": {
-          "@apply text-2xl leading-normal": {},
-        },
-        ".h6": {
-          "@apply font-semibold text-lg leading-8": {},
-        },
-        ".body-1": {
-          "@apply text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8":
-            {},
-        },
-        ".body-2": {
-          "@apply font-light text-[0.875rem] leading-6 md:text-base": {},
-        },
-        ".caption": {
-          "@apply text-sm": {},
-        },
-        ".tagline": {
-          "@apply font-grotesk font-light text-xs tracking-tagline uppercase":
-            {},
-        },
-        ".quote": {
-          "@apply font-code text-lg leading-normal": {},
-        },
         ".button": {
           "@apply font-code text-xs font-bold uppercase tracking-wider": {},
-        },
-      });
-      addUtilities({
-        ".tap-highlight-color": {
-          "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)",
         },
       });
     }),
   ],
 };
+
+function addVariablesForColors({ addBase, theme }) {
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  );
+
+  addBase({
+    ":root": newVars,
+  });
+}

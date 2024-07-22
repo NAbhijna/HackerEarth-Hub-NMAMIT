@@ -1,75 +1,91 @@
-import React from "react";
-import Typing from "../ui/Typing";
-import Button from "../components/Button";
-import Section from "../components/Section";
+import React, { useState, useEffect } from "react";
+import Hero from "../components/Hero";
 import LogosBanner from "../components/LogosBanner";
-import home from "../assets/home.webp";
-import { ScrollParallax } from "react-just-parallax";
-import { BackgroundCircles, Gradient } from "../components/design/Hero";
-import { useRef } from "react";
-import CountUp from "react-countup";
+import Section from "../ui/Section.jsx";
+import UpcomingEvents from "../components/UpcomingEvents.jsx";
+import Collapse from "../components/Collapse.jsx";
+import { AnimatedIcons } from "../components/AnimatedIcons.jsx";
+import Footer from "../components/Footer.jsx";
+import AboutUs from "../components/AboutUs.jsx";
+import Spinner from "../ui/Spinner";
+import content from "../constants/content.json";
+import Team from "./Team.jsx";
+export default function Home() {
+  const [loading, setLoading] = useState(true);
+  const [events, setEvents] = useState([]);
 
-const Hero = () => {
-  const parallaxRef = useRef(null);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setEvents(content.upcomingEvents || []);
+      setLoading(false);
+    }, 1000);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
+  if (loading) {
+    return <Spinner />;
+  }
+
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem] relative"
+      className="pt-[12rem] -mt-[5.25rem] relative bg-radial-gradient"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
-      id="hero"
+      id="home"
     >
-      <div className="absolute w-96 h-96 rounded-full bg-blue-300 blur-3xl opacity-30 bottom-[60vh] right-[80vh] animate-pulse"></div>
-      <div className="absolute w-72 h-72 rounded-full bg-pink-500 blur-3xl opacity-30 bottom-20 right-90"></div>
-      <div className="absolute w-96 h-96 rounded-full bg-purple-300  blur-3xl opacity-30 top-[13vh] right-40"></div>
-      <div className="container relative z-10" ref={parallaxRef}>
-        <div className="relative max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="h1 mb-6">
-            <Typing
-              text="A Coding Hub of NMAMIT"
-              duration={150}
-              className="text-white mt-20 mb-5 text-5xl"
-            />
-          </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Explore the exciting world of Competitive Programming
-            with Hackerearth
-          </p>
-
-          <Button href="/pricing" white>
-            Get started
-          </Button>
-        </div>
-        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-          <div className="relative z-1 p-0.5 rounded-2xl bg-gradient-conic-from-purple">
-            <LogosBanner className="relative z-10 lg:block" />
-            <ScrollParallax isAbsolutelyPositioned>
-              <div className="absolute -left-[5.5rem] bottom-[5.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
-                {" "}
-                <span>
-                  <CountUp start={0} end={120} duration={2} />
-                  <span>+</span>
-                </span>
-                <span>Club members</span>
-              </div>
-            </ScrollParallax>
-            <ScrollParallax isAbsolutelyPositioned>
-              <div className="absolute -right-[5.5rem] bottom-[5.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
-                {" "}
-                <span>
-                  <CountUp start={0} end={20} duration={2} />
-                  <span>+</span>
-                </span>
-                <span>Core members</span>
-              </div>
-            </ScrollParallax>
-
-            <Gradient />
+      <Hero />
+      <LogosBanner className="relative z-10 lg:block mb-20" />
+      <UpcomingEvents events={events} />
+      <Section
+        className="pt-[7rem] -mt-[0.25rem] relative items-center "
+        crosses
+        crossesOffset="lg:translate-y-[5.25rem]"
+        customPaddings
+        id="home"
+      >
+        <Collapse />
+        <div className="m-4 mt-20 md:ml-20 md:my-8">
+          <div className="flex flex-col md:flex-row items-center">
+            <div className="w-full md:w-1/2 mb-6 md:mb-0 md:mr-8">
+              <p className="text-white font-grotesk uppercase tracking-wider mb-2 text-center lg:text-left">
+                LEARN
+              </p>
+              <h2 className="text-white text-2xl sm:text-3xl font-sans font-bold mb-6 text-center lg:text-left">
+                Web Development
+              </h2>
+              <p className="mt-3 text-justify text-sm sm:text-base text-gray-500 dark:text-gray-300 sm:mt-4">
+                Master the essential technologies for modern web development.
+                From HTML and CSS to React and Node.js, we've got you covered.
+              </p>
+            </div>
+            <div className=" sm:h-3/4 w-full md:w-1/2">
+              <AnimatedIcons />
+            </div>
           </div>
         </div>
-      </div>
+      </Section>
+      <Section
+        className="pt-[7rem] -mt-[0.25rem] relative items-center "
+        crosses
+        crossesOffset="lg:translate-y-[5.25rem]"
+        customPaddings
+        id="home"
+      >
+        <AboutUs />
+      </Section>
+      <Section
+        className="pt-[7rem] -mt-[0.25rem] relative items-center "
+        crosses
+        crossesOffset="lg:translate-y-[5.25rem]"
+        customPaddings
+        id="home"
+      >
+        <Footer />
+      </Section>
     </Section>
   );
-};
-
-export default Hero;
+}

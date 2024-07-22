@@ -1,0 +1,331 @@
+{
+  "navigation": [
+    {
+      "id": 1,
+      "title": "Home",
+      "url": "/",
+      "isExternal": false
+    },
+    {
+      "id": 2,
+      "title": "Our Team",
+      "url": "/team",
+      "isExternal": false
+    },
+    {
+      "id": 3,
+      "title": "Leaderboard",
+      "url": "https://forum.hackerearth.rf.gd/public/moneyLeaderboard",
+      "isExternal": true
+    }
+  ],
+  "signInLink": "https://google.com",
+  "sections": [
+    {
+      "id": 0,
+      "title": "Master Problem-Solving Techniques",
+      "content": "Join our club to dive deep into various problem-solving strategies. Through guided practice and peer collaboration, you'll develop critical thinking skills essential for tackling complex challenges."
+    },
+    {
+      "id": 1,
+      "title": "Prepare for coding interviews",
+      "content": "Elevate your interview preparation with hands-on coding interview simulations that closely replicate real-world scenarios. These simulations will help you build confidence, refine your problem-solving abilities, and excel in your upcoming coding interviews."
+    },
+    {
+      "id": 2,
+      "title": "Stay sharp with monthly coding challenges",
+      "content": "Engage in friendly competition within the HackerEarth community and push the boundaries of your skills, putting them to the ultimate test. Join us to see how you measure up against fellow programmers and grow as a coder."
+    }
+  ],
+  "hero": {
+    "title": "Welcome to Our Website",
+    "subtitle": "We provide amazing services",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "logosBanner": {
+    "logos": [
+      "src/assets/logo.png",
+      "src/assets/NMAMIT.png",
+      "src/assets/hackerearth.png"
+    ],
+    "paragraph": "With due support of Hackerearth India, we host several weekly as well as monthly contests and hence keep up with a healthy competitive environment when it comes to 'CP'."
+  },
+  "upcomingEvents": [
+    {
+      "name": "Event 1",
+      "timings": "July 15-17",
+      "description": "event description",
+      "image": "src/assets/event.jpg"
+    },
+    {
+      "name": "Event 2",
+      "timings": "July 15-17",
+      "description": "event description",
+      "image": "src/assets/event.jpg"
+    },
+    {
+      "name": "Event 3",
+      "timings": "July 15-17",
+      "description": "event description",
+      "image": "src/assets/event.jpg"
+    },
+    {
+      "name": "Event 4",
+      "timings": "July 15-17",
+      "description": "event description",
+      "image": "src/assets/event.jpg"
+    },
+    {
+      "name": "Event 5",
+      "timings": "July 15-17",
+      "description": "event description",
+      "image": "src/assets/event.jpg"
+    },
+    {
+      "name": "Event 6",
+      "timings": "July 15-17",
+      "description": "event description",
+      "image": "src/assets/event.jpg"
+    },
+    {
+      "name": "Event 7",
+      "timings": "July 15-17",
+      "description": "event description",
+      "image": "src/assets/event.jpg"
+    },
+    {
+      "name": "Event 8",
+      "timings": "July 15-17",
+      "description": "event description",
+      "image": "src/assets/event.jpg"
+    },
+    {
+      "name": "Event 9",
+      "timings": "July 15-17",
+      "description": "event description",
+      "image": "src/assets/event.jpg"
+    },
+    {
+      "name": "Event 10",
+      "timings": "July 15-17",
+      "description": "event description",
+      "image": "src/assets/event.jpg"
+    }
+  ],
+
+  "aboutUsContent": {
+    "title": "About Us",
+    "paragraphs": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, reiciendis fuga, numquam, vitae doloribus beatae quaerat alias repellendus sit laudantium voluptatibus corrupti facilis eaque. Quibusdam, tempora mollitia. Facilis, quibusdam perferendis.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, reiciendis fuga, numquam, vitae doloribus beatae quaerat alias repellendus sit laudantium voluptatibus corrupti facilis eaque. Quibusdam, tempora mollitia. Facilis, quibusdam perferendis."
+    ],
+    "image": "src/assets/AboutUs.jpg"
+  },
+
+  "footer": {
+    "logo": "src/assets/favicon.png",
+    "description": "Hackerearth Hub Nmamit",
+    "address": [
+      "NMAM Institute of Technology, Nitte, SH1, Karkala, Karnataka,",
+      "KARKALA, NMAMIT 574110, IN"
+    ],
+    "email": "Hackerearth.Nmamit@Nitte.edu.in",
+    "socialMedia": [
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com",
+        "icon": "FaInstagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com",
+        "icon": "FaLinkedin"
+      }
+    ]
+  },
+
+  "teamData": {
+    "executiveTeam": [
+      {
+        "name": "Pragathi S Rao",
+        "designation": "President",
+        "photo": "src/assets/team/Pragathi.jpg",
+        "linkedin": "https://www.linkedin.com/in/pragathi-s-rao",
+        "github": "https://github.com/pragathi916"
+      },
+      {
+        "name": "Gurudutt R Pai",
+        "designation": "Vice President",
+        "photo": "src/assets/team/Gurudatt.jpg",
+        "linkedin": "https://www.linkedin.com/in/gurudutt-r-pai-09551124b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/GuruduttRPai"
+      },
+      {
+        "name": "Shrujan S Shetty",
+        "designation": "Secretary",
+        "photo": "src/assets/team/Shrujan.jpg",
+        "linkedin": "https://www.linkedin.com/in/shrujan-s-shetty-271790279/",
+        "github": "https://github.com/shrujansshetty"
+      },
+      {
+        "name": "Diya Dharmendra",
+        "designation": "Vice Secretary",
+        "photo": "src/assets/team/Diya.jpeg",
+        "linkedin": "https://www.linkedin.com/in/diya-dharmendra-a37054247/",
+        "github": "https://github.com/DiyaDSV"
+      },
+      {
+        "name": "Kavya Hegde",
+        "designation": "Tech Lead",
+        "photo": "src/assets/team/Kavya.jpg",
+        "linkedin": "https://linkedin.com/in/kavya-hegde-9b0790252",
+        "github": "https://github.com/kavyahegde12"
+      },
+      {
+        "name": "Rupali Behera",
+        "designation": "Tech Lead",
+        "photo": "src/assets/team/Rupali.jpg",
+        "linkedin": "http://www.linkedin.com/in/rupali-behera-b68071309",
+        "github": "https://github.com/Rupalib-0903"
+      },
+      {
+        "name": "Deeksha Ramachandra",
+        "designation": "Tech Lead",
+        "photo": "src/assets/team/Deeksha.jpg",
+        "linkedin": "https://www.linkedin.com/in/deeksha-rk-5567b6244/",
+        "github": "https://github.com/Deeksha-R-Kunder"
+      },
+      {
+        "name": "Rithesh",
+        "designation": "Web Master",
+        "photo": "src/assets/team/Rithesh.jpg",
+        "linkedin": "https://www.linkedin.com/in/ritheshnayakmaira/",
+        "github": "https://github.com/ritheshnayak"
+      },
+      {
+        "name": "Abhijna N",
+        "designation": "Co Web Master",
+        "photo": "src/assets/team/Abhijna N.jpg",
+        "linkedin": "https://www.linkedin.com/in/abhijna-n-35946228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/NAbhijna"
+      }
+    ],
+    "promotionsTeam": [
+      {
+        "name": "Pavan C",
+        "designation": "Graphic Head",
+        "photo": "src/assets/team/",
+        "linkedin": "",
+        "github": ""
+      },
+      {
+        "name": "Amisha Shetty",
+        "designation": "Graphic Co-Head",
+        "photo": "src/assets/team/Amisha.jpg",
+        "linkedin": "https://www.linkedin.com/in/amisha-shetty-b94130247",
+        "github": "https://github.com/19Amisha19"
+      },
+      {
+        "name": "Trisha J Shetty",
+        "designation": "Graphic Co-Head",
+        "photo": "src/assets/team/Thrisha.png",
+        "linkedin": "https://www.linkedin.com/in/sushanth-d-s-39152b24b",
+        "github": "https://github.com/thrrsshhh"
+      },
+      {
+        "name": "Karthik Ail",
+        "designation": "Graphic Co-Head",
+        "photo": "src/assets/team/Karthik.jpg",
+        "linkedin": "https://www.linkedin.com/in/thrisha-shetty-7ab70224a",
+        "github": "https://github.com/Sushanth160"
+      },
+      {
+        "name": "Vishnu Prasad",
+        "designation": "Documentation Head",
+        "photo": "src/assets/team/",
+        "linkedin": "",
+        "github": ""
+      },
+      {
+        "name": "Sudhir Nayak",
+        "designation": "Documentation Co-Head",
+        "photo": "src/assets/team/Sudhir.jpg",
+        "linkedin": "https://www.linkedin.com/in/sudhir-nayak-872918247",
+        "github": "https://github.com/SUDHIR-23"
+      },
+      {
+        "name": "Sahana H S",
+        "designation": "Publicity Head",
+        "photo": "src/assets/team/SahanaHS.jpg",
+        "linkedin": "https://www.linkedin.com/in/sahana-hs-aa2776254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/Sahaaana9631"
+      },
+      {
+        "name": "Sahana M K",
+        "designation": "Publicity Co-Head",
+        "photo": "src/assets/team/SahanaMK.png",
+        "linkedin": "https://www.linkedin.com/in/sahana-m-k/",
+        "github": "https://github.com/sahanamk"
+      },
+      {
+        "name": "Ayush N S",
+        "designation": "Publicity Co-Head",
+        "photo": "src/assets/team/Ayush.jpg",
+        "linkedin": "https://www.linkedin.com/in/ayush-shetty-88aa43247/",
+        "github": "https://github.com/AyuShetty"
+      },
+      {
+        "name": "Ansh Vashisht",
+        "designation": "Publicity Member",
+        "photo": "src/assets/team/Ansh.jpeg",
+        "linkedin": "https://www.linkedin.com/in/ansh-vashisht-1759681ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/ansh-vashisht"
+      },
+      {
+        "name": "Soham Mishra",
+        "designation": "Publicity Member",
+        "photo": "src/assets/team/Soham.jpg",
+        "linkedin": "http://www.linkedin.com/in/soham",
+        "github": "https://github.com/SohamMisra"
+      },
+      {
+        "name": "Sthuthi",
+        "designation": "Social Media Publicity Head",
+        "photo": "src/assets/team/Sthuthi.jpg",
+        "linkedin": "https://www.linkedin.com/in/sthuthi-376ab6267",
+        "github": "https://github.com/Sthuthi11"
+      },
+      {
+        "name": "Krithi S",
+        "designation": "Social Media Co Head",
+        "photo": "src/assets/team/KRITHI S.jpg",
+        "linkedin": "https://www.linkedin.com/in/krithishridhar/",
+        "github": "https://github.com/krithishridhar/"
+      },
+      {
+        "name": "Amulya G R",
+        "designation": "Photography Head",
+        "photo": "src/assets/team/",
+        "linkedin": "",
+        "github": ""
+      }
+    ],
+    "facultyTeam": [
+      {
+        "name": "Dr Ashwini B",
+        "designation": "Faculty Advisor",
+        "photo": "src/assets/team/DrAshwiniB.jpg"
+      },
+      {
+        "name": "Dr Vaikunth Pai",
+        "designation": "Faculty Advisor",
+        "photo": "src/assets/team/DrVaikunthPai.jpg"
+      }
+    ]
+  }
+}

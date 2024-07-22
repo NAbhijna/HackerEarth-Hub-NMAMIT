@@ -1,23 +1,29 @@
-import { Logos } from "../constants";
+import React from "react";
+import content from "../constants/content.json";
 
 const LogosBanner = ({ className }) => {
+  const { logos, paragraph } = content.logosBanner;
+
   return (
-    <div className={className}>
-      <h5 className="mb-6 text-center text-n-1/50">
-        With due support of Hackerearth India, <br />
-        we host several weekly as well as monthly contests
-        <br /> and hence keep up with a healthy competitive environment
-        <br /> when it comes to 'CP'.
-      </h5>
-      <ul className="flex flex-col lg:flex-row">
-        {Logos.map((logo, index) => (
-          <li
-            className="flex items-center justify-center flex-1 h-[8.5rem] mb-8 lg:mb-0"
-            key={index}
-          >
-            <img src={logo} width={134} height={28} alt={logo} />
-          </li>
-        ))}
+    <div className={`${className} text-center px-4 sm:px-6 lg:px-8`}>
+      <p className="mb-12 text-sm sm:text-base text-gray-500 dark:text-gray-300 text-justify max-w-4xl mx-auto">
+        {paragraph}
+      </p>
+
+      <ul className="flex flex-wrap justify-center gap-6 sm:gap-8 md:gap-12 lg:gap-16">
+        {Array.isArray(logos) &&
+          logos.map((logo, index) => (
+            <li
+              className="flex items-center justify-center w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 transition-transform duration-300 ease-in-out hover:scale-110"
+              key={index}
+            >
+              <img
+                src={logo}
+                alt={`Logo ${index + 1}`}
+                className="max-w-full max-h-full object-contain"
+              />
+            </li>
+          ))}
       </ul>
     </div>
   );

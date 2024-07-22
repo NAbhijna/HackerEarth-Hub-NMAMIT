@@ -30,7 +30,7 @@ const TypingAnimation = ({ text, duration = 200, className }) => {
 
   return (
     <h1
-      className={`font-display text-center text-4xl font-bold leading-20 tracking-wide drop-shadow-sm ${className}`}
+      className={`font-display mb-3 text-white text-center text-5xl font-bold leading-20 tracking-wide drop-shadow-sm ${className}`}
     >
       {displayedText}
     </h1>
