@@ -38,7 +38,7 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block lg:w-[12rem] w-[8rem] xl:mr-8" href="#hero">
+        <a className="block lg:w-[12rem] w-[8rem] xl:mr-8" href="/">
           <img
             src={Logo}
             width={190}
