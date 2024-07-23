@@ -92,13 +92,7 @@ export default {
       transitionTimingFunction: {
         DEFAULT: "linear",
       },
-      zIndex: {
-        1: "1",
-        2: "2",
-        3: "3",
-        4: "4",
-        5: "5",
-      },
+
       borderWidth: {
         DEFAULT: "0.0625rem",
       },

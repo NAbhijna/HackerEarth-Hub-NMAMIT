@@ -71,12 +71,8 @@ const CollapsibleValues = () => {
         </div>
 
         <div className="w-full lg:w-1/2 lg:pl-8">
-          <p className="text-white font-grotesk uppercase tracking-wider mb-2 text-center lg:text-left">
-            LEARN
-          </p>
-          <h2 className="text-white text-2xl sm:text-3xl font-sans font-bold mb-6 text-center lg:text-left">
-            DSA
-          </h2>
+          <p className="h6-style text-center lg:text-left">ACE</p>
+          <h2 className="h2-style mb-6 text-center lg:text-left">DSA</h2>
 
           {sections.map((section, index) => (
             <div className="mb-4 w-full lg:w-3/4" key={section.id}>
@@ -100,7 +96,7 @@ const CollapsibleValues = () => {
                   transform: "translateY(-10px)",
                 }}
               >
-                <div className="p-4 text-sm leading-normal text-gray-300">
+                <div className="p-4 text-sm leading-normal text-gray-500">
                   {section.content}
                 </div>
               </div>

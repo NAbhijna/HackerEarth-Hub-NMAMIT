@@ -20,27 +20,20 @@
     }
   ],
   "signInLink": "https://google.com",
-  "sections": [
-    {
-      "id": 0,
-      "title": "Master Problem-Solving Techniques",
-      "content": "Join our club to dive deep into various problem-solving strategies. Through guided practice and peer collaboration, you'll develop critical thinking skills essential for tackling complex challenges."
-    },
-    {
-      "id": 1,
-      "title": "Prepare for coding interviews",
-      "content": "Elevate your interview preparation with hands-on coding interview simulations that closely replicate real-world scenarios. These simulations will help you build confidence, refine your problem-solving abilities, and excel in your upcoming coding interviews."
-    },
-    {
-      "id": 2,
-      "title": "Stay sharp with monthly coding challenges",
-      "content": "Engage in friendly competition within the HackerEarth community and push the boundaries of your skills, putting them to the ultimate test. Join us to see how you measure up against fellow programmers and grow as a coder."
-    }
-  ],
+
   "hero": {
-    "title": "Welcome to Our Website",
-    "subtitle": "We provide amazing services",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "paragraphText": "Explore the exciting world of Competitive Programming with Hackerearth",
+    "getStartedLink": "/",
+    "countUpData": [
+      {
+        "end": 120,
+        "text": "Club members"
+      },
+      {
+        "end": 15,
+        "text": "Events"
+      }
+    ]
   },
   "logosBanner": {
     "logos": [
@@ -112,7 +105,23 @@
       "image": "src/assets/event.jpg"
     }
   ],
-
+  "sections": [
+    {
+      "id": 0,
+      "title": "Master Problem-Solving Techniques",
+      "content": "Join our club to dive deep into various problem-solving strategies. Through guided practice and peer collaboration, you'll develop critical thinking skills essential for tackling complex challenges."
+    },
+    {
+      "id": 1,
+      "title": "Prepare for coding interviews",
+      "content": "Elevate your interview preparation with hands-on coding interview simulations that closely replicate real-world scenarios. These simulations will help you build confidence, refine your problem-solving abilities, and excel in your upcoming coding interviews."
+    },
+    {
+      "id": 2,
+      "title": "Stay sharp with weekly coding challenges",
+      "content": "Engage in friendly competition within the HackerEarth community and push the boundaries of your skills, putting them to the ultimate test. Join us to see how you measure up against fellow programmers and grow as a coder."
+    }
+  ],
   "aboutUsContent": {
     "title": "About Us",
     "paragraphs": [

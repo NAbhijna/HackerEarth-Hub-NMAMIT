@@ -12,27 +12,34 @@ const Hero = () => {
   const parallaxRef = useRef(null);
   const countUpRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
+  const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
+    const fetchData = async () => {
+      try {
+        const response = await fetch("src/constants/content.json");
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
         }
-      },
-      { threshold: 0.1 }
-    );
-
-    if (countUpRef.current) {
-      observer.observe(countUpRef.current);
-    }
-
-    return () => {
-      if (countUpRef.current) {
-        observer.unobserve(countUpRef.current);
+        const result = await response.json();
+        setData(result.hero);
+      } catch (err) {
+        console.error("Fetch error:", err);
+        setError(err.message);
       }
     };
+
+    fetchData();
   }, []);
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+
+  if (!data) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div
@@ -45,10 +52,9 @@ const Hero = () => {
           <Typing text="A Coding Hub of NMAMIT" duration={150} />
 
           <p className="text-sm sm:text-base md:text-lg lg:text-xl max-w-3xl mx-auto mb-6 text-[#b0aaec] lg:mb-8">
-            Explore the exciting world of Competitive Programming with
-            Hackerearth
+            {data?.paragraphText || "Loading..."}
           </p>
-          <Button href="/" white>
+          <Button href={data?.getStartedLink || "/"} white>
             Get started
           </Button>
 
@@ -58,7 +64,7 @@ const Hero = () => {
           >
             <div>
               <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">
-                {isVisible && <CountUp start={0} end={120} duration={2} />}
+                <CountUp start={0} end={120} duration={2} />
                 <span>+</span>
               </span>
               <span className="block mt-2 text-[#C8C7F7] text-xs sm:text-sm md:text-base">
@@ -67,7 +73,7 @@ const Hero = () => {
             </div>
             <div>
               <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">
-                {isVisible && <CountUp start={0} end={15} duration={2} />}
+                <CountUp start={0} end={15} duration={2} />
                 <span>+</span>
               </span>
               <span className="block mt-2 text-[#C8C7F7] text-xs sm:text-sm md:text-base">

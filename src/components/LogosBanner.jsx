@@ -6,9 +6,7 @@ const LogosBanner = ({ className }) => {
 
   return (
     <div className={`${className} text-center px-4 sm:px-6 lg:px-8`}>
-      <p className="mb-12 text-sm sm:text-base text-gray-500 dark:text-gray-300 text-justify max-w-4xl mx-auto">
-        {paragraph}
-      </p>
+      <p className="mb-12 p-style max-w-4xl mx-auto">{paragraph}</p>
 
       <ul className="flex flex-wrap justify-center gap-6 sm:gap-8 md:gap-12 lg:gap-16">
         {Array.isArray(logos) &&
