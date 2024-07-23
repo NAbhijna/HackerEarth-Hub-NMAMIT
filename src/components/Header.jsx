@@ -44,7 +44,7 @@ const Header = () => {
             width={190}
             height={40}
             alt="Logo"
-            className="w-[80%] h-auto"
+            className="w-[80%] h-auto brightness-1000"
           />
         </a>
 

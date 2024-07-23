@@ -229,8 +229,8 @@
         "name": "Pavan C",
         "designation": "Graphic Head",
         "photo": "src/assets/Team/PAVANC.jpg",
-        "linkedin": "",
-        "github": ""
+        "linkedin": "https://www.linkedin.com/in/pavan-c-840821203/",
+        "github": "https://github.com/PACHITRA"
       },
       {
         "name": "Amisha Shetty",
@@ -257,8 +257,8 @@
         "name": "Vishnu Prasad",
         "designation": "Documentation Head",
         "photo": "src/assets/Team/VISHNUPRASAD.jpg",
-        "linkedin": "",
-        "github": ""
+        "linkedin": "https://www.linkedin.com/in/vishnu-prasad-bb4755246",
+        "github": "https://github.com/VishnuPrasad55"
       },
       {
         "name": "Sudhir Nayak",
@@ -320,8 +320,8 @@
         "name": "Amulya G R",
         "designation": "Photography Head",
         "photo": "src/assets/Team/AMULYAGR.JPG",
-        "linkedin": "",
-        "github": ""
+        "linkedin": "https://www.linkedin.com/in/amulya-rudresh-237540216/",
+        "github": "https://github.com/amulyarudresh"
       }
     ],
     "facultyTeam": [

@@ -18,7 +18,7 @@ const LogosBanner = ({ className }) => {
               <img
                 src={logo}
                 alt={`Logo ${index + 1}`}
-                className="max-w-full max-h-full object-contain"
+                className="max-w-full max-h-full object-contain brightness-1000"
               />
             </li>
           ))}

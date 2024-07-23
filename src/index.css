@@ -10,6 +10,11 @@ body {
   @apply bg-black;
 }
 
+.brightness-1000 {
+  -webkit-filter: brightness(100000%);
+  filter: brightness(100000%);
+}
+
 .bg-radial-gradient {
   background: radial-gradient(
     circle,
@@ -65,4 +70,13 @@ body {
 }
 * {
   scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 768px){
+  html,
+  body{
+    width:100%;
+    overflow-x: hidden;
+  }
+  
 }
