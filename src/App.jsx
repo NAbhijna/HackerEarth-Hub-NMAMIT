@@ -10,7 +10,7 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/team" element={<Team />} />
+        <Route path="/Team" element={<Team />} />
       </Routes>
     </>
   );

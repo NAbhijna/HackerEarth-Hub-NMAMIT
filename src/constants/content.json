@@ -9,7 +9,7 @@
     {
       "id": 2,
       "title": "Our Team",
-      "url": "/team",
+      "url": "/Team",
       "isExternal": false
     },
     {
@@ -39,70 +39,70 @@
       "timings": "July 15-17",
       "description": "Event description for Event 1",
       "image": "src/assets/event.jpg",
-      "registrationLink": "https://example.com/register/event1"
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
     },
     {
       "name": "Event 2",
       "timings": "July 15-17",
       "description": "Event description for Event 2",
       "image": "src/assets/event.jpg",
-      "registrationLink": "https://example.com/register/event2"
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
     },
     {
       "name": "Event 3",
       "timings": "July 15-17",
       "description": "Event description for Event 3",
       "image": "src/assets/event.jpg",
-      "registrationLink": "https://example.com/register/event3"
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
     },
     {
       "name": "Event 4",
       "timings": "July 15-17",
       "description": "Event description for Event 4",
       "image": "src/assets/event.jpg",
-      "registrationLink": "https://example.com/register/event4"
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
     },
     {
       "name": "Event 5",
       "timings": "July 15-17",
       "description": "Event description for Event 5",
       "image": "src/assets/event.jpg",
-      "registrationLink": "https://example.com/register/event5"
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
     },
     {
       "name": "Event 6",
       "timings": "July 15-17",
       "description": "Event description for Event 6",
       "image": "src/assets/event.jpg",
-      "registrationLink": "https://example.com/register/event6"
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
     },
     {
       "name": "Event 7",
       "timings": "July 15-17",
       "description": "Event description for Event 7",
       "image": "src/assets/event.jpg",
-      "registrationLink": "https://example.com/register/event7"
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
     },
     {
       "name": "Event 8",
       "timings": "July 15-17",
       "description": "Event description for Event 8",
       "image": "src/assets/event.jpg",
-      "registrationLink": "https://example.com/register/event8"
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
     },
     {
       "name": "Event 9",
       "timings": "July 15-17",
       "description": "Event description for Event 9",
       "image": "src/assets/event.jpg",
-      "registrationLink": "https://example.com/register/event9"
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
     },
     {
       "name": "Event 10",
       "timings": "July 15-17",
       "description": "Event description for Event 10",
       "image": "src/assets/event.jpg",
-      "registrationLink": "https://example.com/register/event10"
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
     }
   ],
   "sections": [
@@ -163,63 +163,63 @@
       {
         "name": "Pragathi S Rao",
         "designation": "President",
-        "photo": "src/assets/team/Pragathi.jpg",
+        "photo": "src/assets/Team/Pragathi.jpg",
         "linkedin": "https://www.linkedin.com/in/pragathi-s-rao",
         "github": "https://github.com/pragathi916"
       },
       {
         "name": "Gurudutt R Pai",
         "designation": "Vice President",
-        "photo": "src/assets/team/Gurudatt.jpg",
+        "photo": "src/assets/Team/Gurudatt.jpg",
         "linkedin": "https://www.linkedin.com/in/gurudutt-r-pai-09551124b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "github": "https://github.com/GuruduttRPai"
       },
       {
         "name": "Shrujan S Shetty",
         "designation": "Secretary",
-        "photo": "src/assets/team/Shrujan.jpg",
+        "photo": "src/assets/Team/Shrujan.jpg",
         "linkedin": "https://www.linkedin.com/in/shrujan-s-shetty-271790279/",
         "github": "https://github.com/shrujansshetty"
       },
       {
         "name": "Diya Dharmendra",
         "designation": "Vice Secretary",
-        "photo": "src/assets/team/Diya.jpeg",
+        "photo": "src/assets/Team/Diya.jpeg",
         "linkedin": "https://www.linkedin.com/in/diya-dharmendra-a37054247/",
         "github": "https://github.com/DiyaDSV"
       },
       {
         "name": "Kavya Hegde",
         "designation": "Tech Lead",
-        "photo": "src/assets/team/Kavya.jpg",
+        "photo": "src/assets/Team/Kavya.jpg",
         "linkedin": "https://linkedin.com/in/kavya-hegde-9b0790252",
         "github": "https://github.com/kavyahegde12"
       },
       {
         "name": "Rupali Behera",
         "designation": "Tech Lead",
-        "photo": "src/assets/team/Rupali.jpg",
+        "photo": "src/assets/Team/Rupali.jpg",
         "linkedin": "http://www.linkedin.com/in/rupali-behera-b68071309",
         "github": "https://github.com/Rupalib-0903"
       },
       {
         "name": "Deeksha Ramachandra",
         "designation": "Tech Lead",
-        "photo": "src/assets/team/Deeksha.jpg",
+        "photo": "src/assets/Team/Deeksha.jpg",
         "linkedin": "https://www.linkedin.com/in/deeksha-rk-5567b6244/",
         "github": "https://github.com/Deeksha-R-Kunder"
       },
       {
         "name": "Rithesh",
         "designation": "Web Master",
-        "photo": "src/assets/team/Rithesh.jpg",
+        "photo": "src/assets/Team/Rithesh.jpg",
         "linkedin": "https://www.linkedin.com/in/ritheshnayakmaira/",
         "github": "https://github.com/ritheshnayak"
       },
       {
         "name": "Abhijna N",
         "designation": "Co Web Master",
-        "photo": "src/assets/team/Abhijna N.jpg",
+        "photo": "src/assets/Team/Abhijna N.jpg",
         "linkedin": "https://www.linkedin.com/in/abhijna-n-35946228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "github": "https://github.com/NAbhijna"
       }
@@ -228,98 +228,98 @@
       {
         "name": "Pavan C",
         "designation": "Graphic Head",
-        "photo": "src/assets/team/",
+        "photo": "src/assets/Team/PAVANC.jpg",
         "linkedin": "",
         "github": ""
       },
       {
         "name": "Amisha Shetty",
         "designation": "Graphic Co-Head",
-        "photo": "src/assets/team/Amisha.jpg",
+        "photo": "src/assets/Team/Amisha.jpg",
         "linkedin": "https://www.linkedin.com/in/amisha-shetty-b94130247",
         "github": "https://github.com/19Amisha19"
       },
       {
         "name": "Trisha J Shetty",
         "designation": "Graphic Co-Head",
-        "photo": "src/assets/team/Thrisha.png",
+        "photo": "src/assets/Team/Thrisha.png",
         "linkedin": "https://www.linkedin.com/in/sushanth-d-s-39152b24b",
         "github": "https://github.com/thrrsshhh"
       },
       {
         "name": "Karthik Ail",
         "designation": "Graphic Co-Head",
-        "photo": "src/assets/team/Karthik.jpg",
+        "photo": "src/assets/Team/Karthik.jpg",
         "linkedin": "https://www.linkedin.com/in/thrisha-shetty-7ab70224a",
         "github": "https://github.com/Sushanth160"
       },
       {
         "name": "Vishnu Prasad",
         "designation": "Documentation Head",
-        "photo": "src/assets/team/",
+        "photo": "src/assets/Team/VISHNUPRASAD.jpg",
         "linkedin": "",
         "github": ""
       },
       {
         "name": "Sudhir Nayak",
         "designation": "Documentation Co-Head",
-        "photo": "src/assets/team/Sudhir.jpg",
+        "photo": "src/assets/Team/Sudhir.jpg",
         "linkedin": "https://www.linkedin.com/in/sudhir-nayak-872918247",
         "github": "https://github.com/SUDHIR-23"
       },
       {
         "name": "Sahana H S",
         "designation": "Publicity Head",
-        "photo": "src/assets/team/SahanaHS.jpg",
+        "photo": "src/assets/Team/SahanaHS.jpg",
         "linkedin": "https://www.linkedin.com/in/sahana-hs-aa2776254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "github": "https://github.com/Sahaaana9631"
       },
       {
         "name": "Sahana M K",
         "designation": "Publicity Co-Head",
-        "photo": "src/assets/team/SahanaMK.png",
+        "photo": "src/assets/Team/SahanaMK.png",
         "linkedin": "https://www.linkedin.com/in/sahana-m-k/",
         "github": "https://github.com/sahanamk"
       },
       {
         "name": "Ayush N S",
         "designation": "Publicity Co-Head",
-        "photo": "src/assets/team/Ayush.jpg",
+        "photo": "src/assets/Team/Ayush.jpg",
         "linkedin": "https://www.linkedin.com/in/ayush-shetty-88aa43247/",
         "github": "https://github.com/AyuShetty"
       },
       {
         "name": "Ansh Vashisht",
         "designation": "Publicity Member",
-        "photo": "src/assets/team/Ansh.jpeg",
+        "photo": "src/assets/Team/Ansh.jpeg",
         "linkedin": "https://www.linkedin.com/in/ansh-vashisht-1759681ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "github": "https://github.com/ansh-vashisht"
       },
       {
         "name": "Soham Mishra",
         "designation": "Publicity Member",
-        "photo": "src/assets/team/Soham.jpg",
+        "photo": "src/assets/Team/Soham.jpg",
         "linkedin": "http://www.linkedin.com/in/soham",
         "github": "https://github.com/SohamMisra"
       },
       {
         "name": "Sthuthi",
         "designation": "Social Media Publicity Head",
-        "photo": "src/assets/team/Sthuthi.jpg",
+        "photo": "src/assets/Team/Sthuthi.jpg",
         "linkedin": "https://www.linkedin.com/in/sthuthi-376ab6267",
         "github": "https://github.com/Sthuthi11"
       },
       {
         "name": "Krithi S",
         "designation": "Social Media Co Head",
-        "photo": "src/assets/team/KRITHI S.jpg",
+        "photo": "src/assets/Team/KRITHI S.jpg",
         "linkedin": "https://www.linkedin.com/in/krithishridhar/",
         "github": "https://github.com/krithishridhar/"
       },
       {
         "name": "Amulya G R",
         "designation": "Photography Head",
-        "photo": "src/assets/team/",
+        "photo": "src/assets/Team/AMULYAGR.JPG",
         "linkedin": "",
         "github": ""
       }
@@ -328,12 +328,12 @@
       {
         "name": "Dr Ashwini B",
         "designation": "Faculty Advisor",
-        "photo": "src/assets/team/DrAshwiniB.jpg"
+        "photo": "src/assets/Team/DrAshwiniB.jpg"
       },
       {
         "name": "Dr Vaikunth Pai",
         "designation": "Faculty Advisor",
-        "photo": "src/assets/team/DrVaikunthPai.jpg"
+        "photo": "src/assets/Team/DrVaikunthPai.jpg"
       }
     ]
   }
