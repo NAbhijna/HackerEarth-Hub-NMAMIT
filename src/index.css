@@ -63,7 +63,6 @@ body {
     @apply text-white text-2xl sm:text-3xl font-sans font-bold mb-6;
   }
 }
-
 * {
   scroll-behavior: smooth;
 }

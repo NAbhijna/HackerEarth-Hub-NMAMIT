@@ -26,31 +26,8 @@ export default {
             transform: "translate(-50%, -50%) scale(0.9)",
           },
         },
-
-        blob: {
-          "0%": {
-            transform: "translate(0px, 0px) scale(1)",
-          },
-          "33%": {
-            transform: "translate(30px, -50px) scale(1.1)",
-          },
-          "66%": {
-            transform: "translate(-20px, 20px) scale(0.9)",
-          },
-          "100%": {
-            transform: "tranlate(0px, 0px) scale(1)",
-          },
-        },
       },
       colors: {
-        color: {
-          1: "#5f3f95",
-          2: "#FFC876",
-          3: "#FF776F",
-          4: "#7ADB78",
-          5: "#858DFF",
-          6: "#FF98E2",
-        },
         stroke: {
           1: "#26242C",
         },

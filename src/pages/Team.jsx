@@ -14,7 +14,7 @@ const TeamMember = ({
   instagram,
 }) => {
   return (
-    <div className="relative w-64 p-4 bg-transparent rounded-lg shadow-md transform transition-all duration-200 hover:scale-105 hover:bg-gradient-to-t from-white/20 to-transparent">
+    <div className="relative w-64 p-4 bg-transparent rounded-lg shadow-md transform transition-all duration-200 hover:scale-105 hover:bg-gradient-to-t from-white/20 to-transparent mx-auto">
       <div className="relative z-10 flex flex-col items-center">
         <img
           src={photo}
@@ -58,7 +58,7 @@ const TeamSection = ({ title, members }) => {
   return (
     <div className="mb-12">
       <h2 className="h2-style">{title}</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {members.map((member, index) => (
           <TeamMember key={index} {...member} />
         ))}
