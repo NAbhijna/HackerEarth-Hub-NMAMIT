@@ -71,8 +71,8 @@ const CollapsibleValues = () => {
         </div>
 
         <div className="w-full lg:w-1/2 lg:pl-8">
-          <p className="h6-style text-center lg:text-left">ACE</p>
-          <h2 className="h2-style mb-6 text-center lg:text-left">DSA</h2>
+          <p className="h6-style text-center lg:text-left">Our value</p>
+          <h2 className="h2-style mb-6 text-center lg:text-left">Sharpen your coding skills</h2>
 
           {sections.map((section, index) => (
             <div className="mb-4 w-full lg:w-3/4" key={section.id}>

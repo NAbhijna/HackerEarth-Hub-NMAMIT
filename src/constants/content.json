@@ -19,11 +19,11 @@
       "isExternal": true
     }
   ],
-  "signInLink": "https://google.com",
+  "signInLink": "https://forum.hackerearth.rf.gd/public/login",
 
   "hero": {
     "paragraphText": "Explore the exciting world of Competitive Programming with Hackerearth",
-    "getStartedLink": "/"
+    "getStartedLink": "https://forum.hackerearth.rf.gd/public/login"
   },
   "logosBanner": {
     "logos": [
@@ -37,62 +37,72 @@
     {
       "name": "Event 1",
       "timings": "July 15-17",
-      "description": "event description",
-      "image": "src/assets/event.jpg"
+      "description": "Event description for Event 1",
+      "image": "src/assets/event.jpg",
+      "registrationLink": "https://example.com/register/event1"
     },
     {
       "name": "Event 2",
       "timings": "July 15-17",
-      "description": "event description",
-      "image": "src/assets/event.jpg"
+      "description": "Event description for Event 2",
+      "image": "src/assets/event.jpg",
+      "registrationLink": "https://example.com/register/event2"
     },
     {
       "name": "Event 3",
       "timings": "July 15-17",
-      "description": "event description",
-      "image": "src/assets/event.jpg"
+      "description": "Event description for Event 3",
+      "image": "src/assets/event.jpg",
+      "registrationLink": "https://example.com/register/event3"
     },
     {
       "name": "Event 4",
       "timings": "July 15-17",
-      "description": "event description",
-      "image": "src/assets/event.jpg"
+      "description": "Event description for Event 4",
+      "image": "src/assets/event.jpg",
+      "registrationLink": "https://example.com/register/event4"
     },
     {
       "name": "Event 5",
       "timings": "July 15-17",
-      "description": "event description",
-      "image": "src/assets/event.jpg"
+      "description": "Event description for Event 5",
+      "image": "src/assets/event.jpg",
+      "registrationLink": "https://example.com/register/event5"
     },
     {
       "name": "Event 6",
       "timings": "July 15-17",
-      "description": "event description",
-      "image": "src/assets/event.jpg"
+      "description": "Event description for Event 6",
+      "image": "src/assets/event.jpg",
+      "registrationLink": "https://example.com/register/event6"
     },
     {
       "name": "Event 7",
       "timings": "July 15-17",
-      "description": "event description",
-      "image": "src/assets/event.jpg"
+      "description": "Event description for Event 7",
+      "image": "src/assets/event.jpg",
+      "registrationLink": "https://example.com/register/event7"
     },
     {
       "name": "Event 8",
       "timings": "July 15-17",
-      "description": "event description",
-      "image": "src/assets/event.jpg"
+      "description": "Event description for Event 8",
+      "image": "src/assets/event.jpg",
+      "registrationLink": "https://example.com/register/event8"
     },
     {
       "name": "Event 9",
       "timings": "July 15-17",
-      "description": "event description",
-      "image": "src/assets/event.jpg"
+      "description": "Event description for Event 9",
+      "image": "src/assets/event.jpg",
+      "registrationLink": "https://example.com/register/event9"
     },
     {
       "name": "Event 10",
       "timings": "July 15-17",
-      "description": "event description",
-      "image": "src/assets/event.jpg"
+      "description": "Event description for Event 10",
+      "image": "src/assets/event.jpg",
+      "registrationLink": "https://example.com/register/event10"
     }
   ],
   "sections": [
@@ -115,8 +125,8 @@
   "aboutUsContent": {
     "title": "About Us",
     "paragraphs": [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, reiciendis fuga, numquam, vitae doloribus beatae quaerat alias repellendus sit laudantium voluptatibus corrupti facilis eaque. Quibusdam, tempora mollitia. Facilis, quibusdam perferendis.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, reiciendis fuga, numquam, vitae doloribus beatae quaerat alias repellendus sit laudantium voluptatibus corrupti facilis eaque. Quibusdam, tempora mollitia. Facilis, quibusdam perferendis."
+      "Welcome to Hackerearth Hub-NMAMIT, your gateway to mastering Competitive Programming and enhancing your coding skills. As a vibrant tech club backed by Hackerearth India, we provide a dynamic platform for students to engage in weekly and monthly contests, participate in enlightening webinars, and benefit from up-solving sessions. Our mission is to foster a stimulating competitive environment that inspires and challenges members to reach new heights in programming.",
+      "At Hackerearth Hub-NMAMIT, we’re more than just a club; we’re a community committed to your growth. Our website features diverse programming tracks and hands-on coding interview simulations designed to build your confidence and refine your problem-solving abilities. Join us to explore, compete, and connect with fellow coders as we embark on this exciting journey together!"
     ],
     "image": "src/assets/AboutUs.jpg"
   },
@@ -132,17 +142,17 @@
     "socialMedia": [
       {
         "name": "Instagram",
-        "url": "https://instagram.com",
+        "url": "https://www.instagram.com/hackerearth_nmamit",
         "icon": "FaInstagram"
       },
       {
         "name": "GitHub",
-        "url": "https://github.com",
+        "url": "https://github.com/HackerearthHubNmamit",
         "icon": "FaGithub"
       },
       {
         "name": "LinkedIn",
-        "url": "https://linkedin.com",
+        "url": "https://www.linkedin.com/company/hackerearth-hub-nmamit/",
         "icon": "FaLinkedin"
       }
     ]

@@ -47,9 +47,12 @@ const CardSlider = ({ events }) => {
           style={{ transform: `translateX(-${startIndex * 100}%)` }}
         >
           {events.map((event, index) => (
-            <div
+            <a
               key={index}
+              href={event.registrationLink} // This is where the link is used
               className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex-shrink-0 p-2 transition-transform duration-300 hover:scale-105"
+              target="_blank" // Optional: open in a new tab
+              rel="noopener noreferrer" // Optional: security feature
             >
               <div className="bg-transparent rounded-lg shadow-lg overflow-hidden">
                 <img
@@ -58,7 +61,7 @@ const CardSlider = ({ events }) => {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-3">
-                  <div className=" text-sm leading-normal text-gray-300">
+                  <div className="text-sm leading-normal text-gray-300">
                     {event.name}
                   </div>
                   <p className="text-xs text-gray-500">{event.timings}</p>
@@ -67,7 +70,7 @@ const CardSlider = ({ events }) => {
                   </p>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

@@ -63,7 +63,7 @@ const Hero = () => {
           >
             <div>
               <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">
-                <CountUp start={0} end={120} duration={2} />
+                <CountUp start={0} end={120} duration={2.5} />
                 <span>+</span>
               </span>
               <span className="block mt-2 text-[#C8C7F7] text-xs sm:text-sm md:text-base">
@@ -72,7 +72,7 @@ const Hero = () => {
             </div>
             <div>
               <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">
-                <CountUp start={0} end={15} duration={2} />
+                <CountUp start={0} end={15} duration={2.5} />
                 <span>+</span>
               </span>
               <span className="block mt-2 text-[#C8C7F7] text-xs sm:text-sm md:text-base">
