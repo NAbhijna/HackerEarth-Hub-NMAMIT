@@ -6,9 +6,9 @@ import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
 import Grad from "../assets/svg/ButtonGradient";
-import content from "../constants/content.json"; // Import the content
+import content from "../constants/content.json";
 
-const { navigation, signInLink } = content; // Destructure navigation and signInLink
+const { navigation, signInLink } = content;
 
 const Header = () => {
   const { pathname } = useLocation();

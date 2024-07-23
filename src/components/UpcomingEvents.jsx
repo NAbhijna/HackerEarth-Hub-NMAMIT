@@ -21,7 +21,6 @@ const CardSlider = ({ events }) => {
 
   return (
     <div className="relative w-full max-w-6xl mx-auto">
-      {/* Header with text and arrows */}
       <div className="flex items-center justify-between mb-4 px-4 sm:px-6 lg:px-12">
         <h2 className="h2-style text-center lg:text-left">Upcoming Events</h2>
         <div className="flex gap-2">
@@ -42,7 +41,6 @@ const CardSlider = ({ events }) => {
         </div>
       </div>
 
-      {/* Image Slider */}
       <div className="overflow-hidden px-4 sm:px-6 lg:px-12">
         <div
           className="flex transition-transform duration-1000 ease-in-out"

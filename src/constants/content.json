@@ -23,17 +23,7 @@
 
   "hero": {
     "paragraphText": "Explore the exciting world of Competitive Programming with Hackerearth",
-    "getStartedLink": "/",
-    "countUpData": [
-      {
-        "end": 120,
-        "text": "Club members"
-      },
-      {
-        "end": 15,
-        "text": "Events"
-      }
-    ]
+    "getStartedLink": "/"
   },
   "logosBanner": {
     "logos": [

@@ -4,7 +4,6 @@ import Button from "../ui/Button.jsx";
 import { ScrollParallax } from "react-just-parallax";
 import CountUp from "react-countup";
 import "../index.css";
-import "@fortawesome/fontawesome-free/css/all.min.css";
 import Splinea from "./Splinea.jsx";
 import Background from "./Background.tsx";
 

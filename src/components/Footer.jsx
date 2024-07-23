@@ -1,6 +1,6 @@
 import React from "react";
 import { FaInstagram, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import footerContent from "../constants/content.json"; // Adjust the path if necessary
+import footerContent from "../constants/content.json";
 
 const iconMap = {
   FaEnvelope: FaEnvelope,

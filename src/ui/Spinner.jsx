@@ -1,5 +1,5 @@
 import React from "react";
-import spinner from "../assets/Spinner.svg"; // Adjust path if needed
+import spinner from "../assets/Spinner.svg";
 
 const Spinner = () => (
   <div
@@ -8,7 +8,7 @@ const Spinner = () => (
       justifyContent: "center",
       alignItems: "center",
       height: "100vh",
-      backgroundColor: "rgba(0, 0, 0, 0.5)", // Optional: semi-transparent background
+      backgroundColor: "rgba(0, 0, 0, 0.5)",
     }}
   >
     <img
