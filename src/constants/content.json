@@ -15,7 +15,7 @@
     {
       "id": 3,
       "title": "Leaderboard",
-      "url": "https://forum.hackerearth.rf.gd/public/moneyLeaderboard",
+      "url": "https://forum.hackerearth.rf.gd/public/p/5-leaderboard",
       "isExternal": true
     }
   ],
@@ -35,25 +35,25 @@
   },
   "upcomingEvents": [
     {
-      "name": "Event 1",
-      "timings": "July 15-17",
-      "description": "Event description for Event 1",
-      "image": "src/assets/event.jpg",
-      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
+      "name": "Weekly Contest 2",
+      "timings": "31st August 2024 at 8:30 PM",
+      "description": "Dive deep into the world of Data Structures and Algorithms (DSA).",
+      "image": "src/assets/weekly_2.png",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/22-weekly-contest-2"
     },
     {
-      "name": "Event 2",
-      "timings": "July 15-17",
-      "description": "Event description for Event 2",
-      "image": "src/assets/event.jpg",
-      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
+      "name": "Weekly Contest 1",
+      "timings": "24th August 2024 at 8:30 PM",
+      "description": "Dive deep into the world of Data Structures and Algorithms (DSA).",
+      "image": "src/assets/weekly_1.png",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/21-weekly-contest-1"
     },
     {
-      "name": "Event 3",
-      "timings": "July 15-17",
-      "description": "Event description for Event 3",
-      "image": "src/assets/event.jpg",
-      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
+      "name": "Unlocking Industry Insights and Career Success",
+      "timings": "17th August 2024 at 7:00 PM",
+      "description": "Industry Insights & Career Guidance with Aadarsh",
+      "image": "src/assets/industryinsight.png",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/20-unlocking-industry-insights-and-career-success"
     },
     {
       "name": "Event 4",
@@ -66,41 +66,6 @@
       "name": "Event 5",
       "timings": "July 15-17",
       "description": "Event description for Event 5",
-      "image": "src/assets/event.jpg",
-      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
-    },
-    {
-      "name": "Event 6",
-      "timings": "July 15-17",
-      "description": "Event description for Event 6",
-      "image": "src/assets/event.jpg",
-      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
-    },
-    {
-      "name": "Event 7",
-      "timings": "July 15-17",
-      "description": "Event description for Event 7",
-      "image": "src/assets/event.jpg",
-      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
-    },
-    {
-      "name": "Event 8",
-      "timings": "July 15-17",
-      "description": "Event description for Event 8",
-      "image": "src/assets/event.jpg",
-      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
-    },
-    {
-      "name": "Event 9",
-      "timings": "July 15-17",
-      "description": "Event description for Event 9",
-      "image": "src/assets/event.jpg",
-      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
-    },
-    {
-      "name": "Event 10",
-      "timings": "July 15-17",
-      "description": "Event description for Event 10",
       "image": "src/assets/event.jpg",
       "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
     }

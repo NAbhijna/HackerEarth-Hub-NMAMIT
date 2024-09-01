@@ -22,7 +22,7 @@ const CardSlider = ({ events }) => {
   return (
     <div className="relative w-full max-w-6xl mx-auto">
       <div className="flex items-center justify-between mb-4 px-4 sm:px-6 lg:px-12">
-        <h2 className="h2-style text-center lg:text-left">Upcoming Events</h2>
+        <h2 className="h2-style text-center lg:text-left">Events By HackerEarth Hub NMAMIT</h2>
         <div className="flex gap-2">
           <button
             onClick={prevCard}
