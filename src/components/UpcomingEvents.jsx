@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useSwipeable } from "react-swipeable";
 import {
   BsFillArrowLeftCircleFill,
   BsFillArrowRightCircleFill,
@@ -18,6 +19,14 @@ const CardSlider = ({ events }) => {
       setStartIndex(startIndex - 1);
     }
   };
+
+  // Swipe handlers
+  const handlers = useSwipeable({
+    onSwipedLeft: () => nextCard(),
+    onSwipedRight: () => prevCard(),
+    preventDefaultTouchmoveEvent: true,
+    trackMouse: true,
+  });
 
   return (
     <div className="relative w-full max-w-6xl mx-auto">
@@ -41,7 +50,7 @@ const CardSlider = ({ events }) => {
         </div>
       </div>
 
-      <div className="overflow-hidden px-4 sm:px-6 lg:px-12">
+      <div className="overflow-hidden px-4 sm:px-6 lg:px-12" {...handlers}>
         <div
           className="flex transition-transform duration-1000 ease-in-out"
           style={{ transform: `translateX(-${startIndex * 100}%)` }}
@@ -49,10 +58,10 @@ const CardSlider = ({ events }) => {
           {events.map((event, index) => (
             <a
               key={index}
-              href={event.registrationLink} // This is where the link is used
+              href={event.registrationLink}
               className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex-shrink-0 p-2 transition-transform duration-300 hover:scale-105"
-              target="_blank" // Optional: open in a new tab
-              rel="noopener noreferrer" // Optional: security feature
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="bg-transparent rounded-lg shadow-lg overflow-hidden">
                 <img

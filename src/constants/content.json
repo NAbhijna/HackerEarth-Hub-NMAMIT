@@ -35,39 +35,102 @@
   },
   "upcomingEvents": [
     {
-      "name": "Weekly Contest 2",
-      "timings": "31st August 2024 at 8:30 PM",
+      "name": "Weekly Contest 10",
+      "timings": "9:30 AM to 10:30 PM",
       "description": "Dive deep into the world of Data Structures and Algorithms (DSA).",
-      "image": "src/assets/weekly_2.png",
-      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/22-weekly-contest-2"
+      "image": "https://lh3.googleusercontent.com/d/1BSQkyhf4GZ99HsrTMXZXFTy6HG9hVkjJ",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/38-weekly-contest-10"
     },
     {
-      "name": "Weekly Contest 1",
-      "timings": "24th August 2024 at 8:30 PM",
+      "name": "Weekly Contest 9",
+      "timings": "9:30 AM to 10:30 PM",
       "description": "Dive deep into the world of Data Structures and Algorithms (DSA).",
-      "image": "src/assets/weekly_1.png",
-      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/21-weekly-contest-1"
+      "image": "https://lh3.googleusercontent.com/d/1eiAfafsDFjvP3wPrdFHF-a5JS-NhcxI5",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/37-weekly-contest-9"
+    },
+    {
+      "name": "Competitive Problem Solving Workshop!",
+      "timings": "9:30 AM to 10:30 PM",
+      "description": "This engaging and interactive workshop is designed to sharpen your problem-solving skills for coding competitions.",
+      "image": "https://lh3.googleusercontent.com/d/1bZ17GU7MxIIqV536BwhECpMVgBPRahbK",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/42-competitive-problem-solving-workshop"
+    },
+    {
+      "name": "Weekly Contest 8",
+      "timings": "9:30 AM to 10:30 PM",
+      "description": "Dive deep into the world of Data Structures and Algorithms (DSA).",
+      "image": "https://lh3.googleusercontent.com/d/1VGy7HsPY_dU5UERXrwkE24UMrUUEcoCq",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/36-weekly-contest-b1000-8"
+    },
+    {
+      "name": "Weekly Contest 7",
+      "timings": "9:30 AM to 10:30 PM",
+      "description": "Dive deep into the world of Data Structures and Algorithms (DSA).",
+      "image": "https://lh3.googleusercontent.com/d/1hntqo6uKem3PgX33UAjGUdje34ay1XCj",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/35-weekly-contest-7"
+    },
+    {
+      "name": "Maze of Codes",
+      "timings": "9:30 AM to 10:30 PM",
+      "description": "🔥 \"MAZE OF CODES\" - THE ULTIMATE CODING ADVENTURE! 🔥 Prepare to dive into an electrifying, brain-bending coding competition that will test your skills and push you to the limits! 🚀",
+      "image": "https://lh3.googleusercontent.com/d/1c6Wv6AU3kpB3sHmOwkh-L-15lKMndrxf",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/41-maze-of-codes"
+    },
+    {
+      "name": "Weekly Contest 6",
+      "timings": "9:30 AM to 10:30 PM",
+      "description": "Dive deep into the world of Data Structures and Algorithms (DSA).",
+      "image": "https://lh3.googleusercontent.com/d/1cUgk9iP82jHbIIyfbF4tN7os-K8_nVgr",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/34-weekly-contest-6"
+    },
+    {
+      "name": "Weekly Contest 5",
+      "timings": "9:30 AM to 10:30 PM",
+      "description": "Dive deep into the world of Data Structures and Algorithms (DSA).",
+      "image": "https://lh3.googleusercontent.com/d/1Bn4LMlN59dl_ibFBZEtqRTTE8LSb_rhg",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/33-weekly-contest-5"
+    },
+    {
+      "name": "Code Clash",
+      "timings": "9:30 AM to 10:30 PM",
+      "description": "Join CodeClash, the ultimate coding showdown, and test your skills in DSA, aptitude, debugging, and algorithm challenges",
+      "image": "https://forum.hackerearth.rf.gd/public/assets/files/2024-10-03/1727970473-743755-whatsapp-image-2024-10-03-at-211632.jpg",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/40-code-clash"
+    },
+    {
+      "name": "Weekly Contest 4",
+      "timings": "9:30 AM to 10:30 PM",
+      "description": "Dive deep into the world of Data Structures and Algorithms (DSA).",
+      "image": "https://lh3.googleusercontent.com/d/15Wb139QV7zYt5yzOOgBLTZy-UQ0R8IuW",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/32-weekly-contest-4"
+    },
+    {
+      "name": "Weekly Contest 3",
+      "timings": "9:30 AM to 10:30 PM",
+      "description": "Dive deep into the world of Data Structures and Algorithms (DSA).",
+      "image": "https://lh3.googleusercontent.com/d/1y6EkR8qyZ8Bdl8QNUU4uPkVcId3eow7i",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/31-weekly-contest-3"
     },
     {
       "name": "Unlocking Industry Insights and Career Success",
       "timings": "17th August 2024 at 7:00 PM",
       "description": "Industry Insights & Career Guidance with Aadarsh",
       "image": "src/assets/industryinsight.png",
-      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/20-unlocking-industry-insights-and-career-success"
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/39-industry-insights-career-guidance-with-aadarsh"
     },
     {
-      "name": "Event 4",
-      "timings": "July 15-17",
-      "description": "Event description for Event 4",
-      "image": "src/assets/event.jpg",
-      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
+      "name": "Weekly Contest 2",
+      "timings": "31st August 2024 at 8:30 PM",
+      "description": "Dive deep into the world of Data Structures and Algorithms (DSA).",
+      "image": "src/assets/weekly_2.png",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/30-weekly-contest-2"
     },
     {
-      "name": "Event 5",
-      "timings": "July 15-17",
-      "description": "Event description for Event 5",
-      "image": "src/assets/event.jpg",
-      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog"
+      "name": "Weekly Contest 1",
+      "timings": "24th August 2024 at 8:30 PM",
+      "description": "Dive deep into the world of Data Structures and Algorithms (DSA).",
+      "image": "src/assets/weekly_1.png",
+      "registrationLink": "https://forum.hackerearth.rf.gd/public/blog/29-weekly-contest-1"
     }
   ],
   "sections": [
@@ -168,7 +231,7 @@
         "github": "https://github.com/Rupalib-0903"
       },
       {
-        "name": "Nagendra Pai",
+        "name": "Niggendra Pai",
         "designation": "Tech Lead",
         "photo": "src/assets/Team/Nagendra.png",
         "linkedin": "https://www.linkedin.com/in/nagendra-pai-82b714246",
@@ -254,13 +317,6 @@
         "github": "https://github.com/sahanamk"
       },
       {
-        "name": "Ayush N S",
-        "designation": "Publicity Co-Head",
-        "photo": "src/assets/Team/Ayush.jpg",
-        "linkedin": "https://www.linkedin.com/in/ayush-shetty-88aa43247/",
-        "github": "https://github.com/AyuShetty"
-      },
-      {
         "name": "Ansh Vashisht",
         "designation": "Publicity Member",
         "photo": "src/assets/Team/Ansh.jpeg",
@@ -287,13 +343,6 @@
         "photo": "src/assets/Team/KRITHI S.jpg",
         "linkedin": "https://www.linkedin.com/in/krithishridhar/",
         "github": "https://github.com/krithishridhar/"
-      },
-      {
-        "name": "Amulya G R",
-        "designation": "Photography Head",
-        "photo": "src/assets/Team/AMULYAGR.JPG",
-        "linkedin": "https://www.linkedin.com/in/amulya-rudresh-237540216/",
-        "github": "https://github.com/amulyarudresh"
       }
     ],
     "facultyTeam": [
