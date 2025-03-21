@@ -35,6 +35,13 @@
   },
   "upcomingEvents": [
     {
+      "name": "The Tech Triad",
+      "timings": "9:00 AM to 01:00 PM",
+      "description": "Put your problem-solving skills to the test in a fast-paced competition packed with logic, puzzles, and AI challenges!",
+      "image": "src/assets/techtriad.jpg",
+      "registrationLink": "https://hackerearth.rf.gd/player.html"
+    },
+    {
       "name": "Weekly Contest 10",
       "timings": "9:30 AM to 10:30 PM",
       "description": "Dive deep into the world of Data Structures and Algorithms (DSA).",
